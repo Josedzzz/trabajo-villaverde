@@ -8,7 +8,6 @@ Requerimiento i: Lectura y organizacion de datos
 Requerimiento ii: Estadistica descriptiva
 """
 
-import pandas as pd
 from modules.data_loader import cargar_datos, organizar_datos, explorar_datos, validar_estructura_datos
 from modules.descriptive_stats import calcular_estadisticas, mostrar_resumen_estadisticas
 from modules.lmp_analysis import evaluar_limites_permitidos
